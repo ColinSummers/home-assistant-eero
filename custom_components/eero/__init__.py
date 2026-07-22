@@ -12,7 +12,8 @@ from typing import Any
 import voluptuous as vol
 
 from homeassistant.config_entries import ConfigEntry
-from homeassistant.const import CONF_NAME, CONF_SCAN_INTERVAL, Platform, UNDEFINED
+from homeassistant.const import CONF_NAME, CONF_SCAN_INTERVAL, Platform
+from homeassistant.helpers.typing import UNDEFINED
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers import (
     config_validation as cv,
